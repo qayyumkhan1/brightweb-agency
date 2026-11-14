@@ -1,0 +1,276 @@
+body {
+    background-color: lightblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    margin: 0;
+    padding: 0px 15px;
+    background-color: darkblue;
+    color: white;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+@media (max-width: 640px) {
+    nav {
+    width: 100%;
+    margin: 0;
+    padding: 0px 15px;
+    background-color: darkblue;
+    color: white;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  
+}
+ul{
+    gap: 10px;
+}
+
+
+}
+.logo{
+    padding: 12px 20px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+ul {
+    list-style: none;
+    display: flex; 
+  
+}
+li{
+    list-style: none;
+    padding: 10px 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: lightblue;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     color: darkblue;
+    text-align: center;
+    padding: 60px 20px;
+    height: 500px;
+}
+@media (max-width:640px) {
+    #hero{
+        margin: 0;
+        padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     color: darkblue;
+    min-height: 400px;
+
+    }
+    #hero h1{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+}
+#hero h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+#hero p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#hero button{
+
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#services{
+    background-color: lightgray;
+    padding: 60px 20px;
+    text-align: center;
+}
+.card-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.card h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+@media (max-width:640px) {
+    .card-section{
+        margin: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.card {
+    width: 100%;
+    max-width: 350px;
+}
+}
+#about{
+    padding: 60px 20px;
+    text-align: center;
+}
+.about-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 20px;
+}
+@media (max-width:640px) {
+    .about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 20px;
+}
+.about-content img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 6px;
+}
+}
+.about-content p{
+    
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+    text-align: center;
+}
+img{
+   
+    height: auto;
+    border-radius: 6px;
+    width: 300px;
+}
+.btn {
+  margin: 20px;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+}
+.about-content div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#contact{
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+
+}
+#contact h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    background-color: lightblue;
+}
+@media (max-width:640px) {
+    form{
+        width: 90%;
+    }
+    input, textarea{
+        width: 90%;
+    }
+}
+#msg{
+    width: 90%;
+    height: 100px;
+    border-radius: 5px;
+}
+footer{
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+footer p{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
